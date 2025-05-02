@@ -46,9 +46,9 @@ public class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        String path = "";
+        String path = "/home/joaolima/";
         generateCsvDataset(10, 10000, path+ "regression_dataset.csv");
-        LMS lms = new LMS(path+"regression_dataset.csv", 100, "y", null, 1000, 50, 0.001, true);
+        LMS lms = new LMS(path+"regression_dataset.csv", 100, "y", null, 1000, 50, 0.0001, true);
         lms.train();
         lms.exportLearningCurve(path + "learning_curve.png");
     }

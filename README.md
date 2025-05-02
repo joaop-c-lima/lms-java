@@ -48,6 +48,10 @@ This will:
 
 Use `String path` to choose the learning_curve.png save path.
 
+## Output
+
+![Learning Curve of a execution of a synthetic dataset with 10 variables and 10000 samples.](assets/learning_curve.png)
+
 ## License
 
 MIT License — free to use, modify, and distribute.
